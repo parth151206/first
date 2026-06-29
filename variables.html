@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css variables</title>
+    <style>
+        :root {
+           --font-family: fantasy;
+           --text-color: grey;
+           --font-size: 20px;
+        }
+
+        .box {
+            --box-color: rgb(215, 235, 239);
+
+            color: var(--text-color);
+            font-size: var(--font-size);
+            background-color: var(--box-color);
+            padding: 20px;
+        }
+        .boxes {
+            color: var(--text-color);
+            background-color: var(--box-color,rgb(9, 253, 13));
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+Lakhan Barkade
+    </div>
+     <div class="boxes">
+Rahul
+    </div>
+     <div class="box">
+Swanand Datts Teli
+     </div>
+    
+</body>
+</html>

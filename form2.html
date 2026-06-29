@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM NUMBER 2</title>
+</head>
+<body>
+    <center>
+    <h3 title="Student Registration">Student Registration form</h3>
+    </center>
+    <form action="">
+        <fieldset style="color: rgb(0, 16, 16);">
+            <legend>Personal Information</legend>
+            <p>Name <input type="text" size="20" required></p>
+            <p>Email <input type="email" required></p>
+        <p>Gender
+            <br/>
+            <input type="radio" name="gender" id="gender">Male
+            <input type="radio" name="gender" id="gender">Female
+            <input type="radio" name="gender" id="gender">Other
+        </p>
+        <p>Skill
+            <br/>
+            <input type="checkbox" name="Skill" id="Skill">HTML
+            <input type="checkbox" name="Skill" id="Skill">CSS
+            <input type="checkbox" name="Skill" id="Skill">JavaScript
+            <input type="checkbox" name="Skill" id="Skill">PHP
+        </p>
+        <p>City <input type="text" name="City" id="City" required></p>
+        <p>Course <select name="Course" id="Course">
+            <option value="">--Select Course--</option>
+            <option value="Webdev">Webdev</option>
+            <option value="python dev">python dev</option>
+            <option value="cloud computing">cloud computing</option>
+            <option value="data analytics">data analytics</option>
+        </select></p>
+        <p>Address
+            <br/>
+            <textarea name="Address" id="Address"></textarea>
+        </p>
+        <center>
+            <input type="submit"><input type="reset">
+        </center>
+        
+        </fieldset>
+    </form>
+</body>
+</html>

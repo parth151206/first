@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Multiple Attributes Example</title>
+</head>
+<body>
+<center>
+    <h1 id="heading" class="title" style="color: rgb(63, 148, 63);">
+        PK Chiken Shop
+    </h1>
+
+    <p title="this is a paragraph" style="color: rgb(35, 35, 159);" align="center">
+        yaylach lagty...
+        <br>green aani red chiken 65 khayala
+    </p>
+
+    <a href="https://share.google/gy0gV1pJ3SD7kQeqH" target="_parent" title="Visit shop">
+        visit shop web
+    </a><br>
+    payment Qr code
+
+    <br><br>
+
+    <img src="https://cdn.britannica.com/17/155017-050-9AC96FC8/Example-QR-code.jpg"
+    
+         height="150"
+         title="Placeholder Image">
+
+    <br>
+
+    <input type="text"
+           placeholder="Enter your name"
+           maxlength="20"
+           required>
+
+           <br> 
+            <fieldset>
+                <p>gender -<input type="radio" name="gender" id="gender">Male <input type="radio" name="gender" id="gender">female <input type="radio" name="gender" id="gender">Transgender</p>
+            </fieldset>
+           
+            
+           <br>
+           <input type="number"
+           placeholder="Enter your age"
+           maxlength="10"
+           required>
+</center>
+</body>
+</html>

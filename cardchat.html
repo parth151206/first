@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Cards</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background:#f5f5f5;
+        padding:20px;
+    }
+
+    .container{
+        display:flex;
+        gap:12px;
+        background:#f4cf3d;
+        padding:12px;
+        border-radius:12px;
+        overflow-x:auto;
+    }
+
+    .card{
+        width:220px;
+        background:#fff;
+        border-radius:12px;
+        overflow:hidden;
+        flex-shrink:0;
+    }
+
+    .card img{
+        width:100%;
+        height:170px;
+        object-fit:contain;
+        display:block;
+        padding:10px;
+    }
+
+    .card-title{
+        padding:12px;
+        color:#666;
+        font-size:22px;
+        font-weight:300;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+        <img src="download (1).jpeg" alt="Gaming Laptop">
+        <div class="card-title">Gaming Laptops</div>
+    </div>
+
+    <div class="card">
+        <img src="shopping.webp" alt="Gimbal">
+        <div class="card-title">Gimbals</div>
+    </div>
+
+    <div class="card">
+        <img src="download (2).jpeg" alt="Earbuds">
+        <div class="card-title">True Wireless</div>
+    </div>
+
+    <div class="card">
+        <img src="download.jpeg" alt="Hot and Cold Packs">
+        <div class="card-title">Hot and Cold Packs</div>
+    </div>
+
+</div>
+
+</body>
+</html>
